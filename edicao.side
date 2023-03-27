@@ -1,0 +1,153 @@
+{
+  "id": "4dc4611c-b456-435a-9522-074b25006d18",
+  "version": "2.0",
+  "name": "edicao",
+  "url": "http://192.168.0.194:8080",
+  "tests": [{
+    "id": "df6b70c7-010c-4274-9921-ef5f7c39a893",
+    "name": "edicao",
+    "commands": [{
+      "id": "00e00fff-55f2-4f7b-9578-118c762f44d9",
+      "comment": "",
+      "command": "open",
+      "target": "http://192.168.0.194:8080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38a945d5-9df9-4655-a116-0c9562ecbace",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "861x699",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02a8c3f2-609c-4398-8e29-2550146f822c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//tr[2]/td[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a71a3409-3e8d-4505-b915-7d500c5abad8",
+      "comment": "",
+      "command": "click",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=div:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5c5c0d1-98ee-47f4-a058-5ce1fece2944",
+      "comment": "",
+      "command": "click",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=div:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67fce839-2c7a-4bc3-a373-d7a287704fc1",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=div:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad05a06f-1024-42af-99eb-5013acc63bb0",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=div > .ng-dirty", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "juliana"
+    }, {
+      "id": "13bc383d-4a04-42ff-81d1-c28fde289a2c",
+      "comment": "",
+      "command": "click",
+      "target": "name=endereco",
+      "targets": [
+        ["name=endereco", "name"],
+        ["css=div:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='endereco']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46a442b4-c676-4e16-8a80-006c8c05a8ec",
+      "comment": "",
+      "command": "click",
+      "target": "name=endereco",
+      "targets": [
+        ["name=endereco", "name"],
+        ["css=div:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='endereco']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df521042-2537-472e-aed9-2c7f01c59580",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=endereco",
+      "targets": [
+        ["name=endereco", "name"],
+        ["css=div:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='endereco']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bc51888-2624-42d5-b2a3-d14afe5adaa0",
+      "comment": "",
+      "command": "type",
+      "target": "name=endereco",
+      "targets": [
+        ["name=endereco", "name"],
+        ["css=div:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='endereco']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "rua Jeriquaquara"
+    }, {
+      "id": "8d294c88-e99a-4bfd-ab8f-0598f036f4b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Atualizar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9a665705-5e0d-43b1-95de-f8773a3e247a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["df6b70c7-010c-4274-9921-ef5f7c39a893"]
+  }],
+  "urls": ["http://192.168.0.194:8080/"],
+  "plugins": []
+}
